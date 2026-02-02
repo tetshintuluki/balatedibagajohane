@@ -1,0 +1,9 @@
+// ... existing imports ...
+
+export const PrintView = ({ members, visitors, contributions, currentAdmin }: PrintViewProps) => {
+  // ... existing functions ...
+
+  const formatCurrency = (amount: number) => `BWP ${amount.toFixed(2)}`;
+
+  // ... rest of the component remains the same ...
+};
